@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imgbankprofile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/contact" />
+
+        <TextView
+            android:id="@+id/tv_bankname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imgbankprofile"
+            android:text="ICICI Prudential Value\nDiscovey Funds"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_qualityvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equlity-Vlaue"
+            android:layout_below="@+id/tv_bankname"
+            android:layout_toRightOf="@id/imgbankprofile"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/tv_byreturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3Y Return"/>
+            <TextView
+                android:id="@+id/tv_returnpersent"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21.61% p.a"
+
+                android:textSize="25dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:id="@+id/tv_returndate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date 09/05/2002"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                android:id="@+id/tv_minamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Amount"/>
+
+            <TextView
+                android:id="@+id/tv_amountvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="₹100"
+                android:textSize="25dp"
+                android:drawableEnd="@drawable/right"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

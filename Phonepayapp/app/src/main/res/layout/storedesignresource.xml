@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/profilepic"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_Storename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" T Temple ChaiSutta Bar "
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_StoreType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cafe"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_StoreTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="498 mts-OPEN-Closes at 10 pm"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            >
+            <ImageView
+                android:id="@+id/img_Storeratingstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right"
+
+                />
+            <TextView
+                android:id="@+id/tv_Storerating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.8"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_ratingvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(16)"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comment"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>
+
