@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".questionsActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="'QUESTIONS'"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:fontFamily="sans-serif-black"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tv_questwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ques 1.  What is an interface?"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <RadioGroup
+        android:id="@+id/rg_que1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/rb_op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Class"/>
+        <RadioButton
+            android:id="@+id/rb_op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Object"
+            android:paddingLeft="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Interfaces" />
+
+        <RadioButton
+            android:id="@+id/rb_op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None of the Mentioned"
+            android:paddingLeft="10dp"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tv_quesone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ques 1.  Arrays in Java are ?"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <RadioGroup
+        android:id="@+id/rg_que2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/rb_sec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Object references"/>
+        <RadioButton
+            android:id="@+id/rb_sec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Objects"
+            android:paddingLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/rb_sec3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primitive data type"
+            android:paddingLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/rb_sec4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None "
+            android:paddingLeft="10dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        />
+
+
+
+
+</LinearLayout>
