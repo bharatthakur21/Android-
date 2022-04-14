@@ -47,7 +47,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 signUpInputbody.setEmail(edittextemailid.getText().toString());
-                signUpInputbody.setPassword(edittextsetpassword.getText().toString());
+                 signUpInputbody.setPassword(edittextsetpassword.getText().toString());
                 signUpInputbody.setFirstName(edtfirstname.getText().toString());
                 signUpInputbody.setLastName(edttextlastname.getText().toString());
                 signUpInputbody.setMobileNumber(edttextphonenumber.getText().toString());

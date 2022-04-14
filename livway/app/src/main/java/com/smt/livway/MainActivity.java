@@ -15,6 +15,8 @@ import com.smt.livway.apiInterfacepacakage.ApiInterface;
 import com.smt.livway.apiInterfacepacakage.RetrofitModelclass;
 import com.smt.livway.apipacakage.LoginInputbody;
 import com.smt.livway.apipacakage.LoginResponcsebody;
+import com.smt.livway.sharedprefrence.AppSession;
+import com.smt.livway.sharedprefrence.Constant;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -83,9 +85,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponcsebody> call, Response<LoginResponcsebody> response) {
                 if (response.code()==200){
-                    edtemail.setText(response.body().getData().getUsername());
-                    Edtpassword.setText(response.body().getData().getUsername());
-                    Intent loginIntent = new Intent(MainActivity.this, MainActivity2.class);
+
+                    AppSession.getInstance(MainActivity.this).setValue(Constant.ACCESS_TOKEN_SHARED_PREFERENCES,response.body().getData().getToken());
+                    Intent loginIntent = new Intent(MainActivity.this,SetRecyclerActivity.class);
                     startActivity(loginIntent);
                 }else{
                     Toast.makeText(MainActivity.this, "invalid Account", Toast.LENGTH_SHORT).show();

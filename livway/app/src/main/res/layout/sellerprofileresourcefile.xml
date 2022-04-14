@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_productimage"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/profileimg" />
+
+        <ImageView
+            android:id="@+id/imgwishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:src="@drawable/store" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgwishlist"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="+2more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@+id/img_productimage"
+            android:text="Brand New Mia lash traderrs" />
+        <TextView
+            android:id="@+id/productprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$69"
+            android:layout_below="@id/productname"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productname"
+            android:layout_toRightOf="@+id/productprice"
+            android:text="$20.26"
+            android:textSize="@dimen/_5sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+
+        <RatingBar
+            android:id="@+id/rbstar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productprice"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:theme="@style/RatingBar" />
+        <TextView
+            android:id="@+id/ratingcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productprice"
+            android:text="(231)"
+            android:layout_toRightOf="@id/rbstar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Deleviry"
+            android:layout_below="@id/rbstar"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

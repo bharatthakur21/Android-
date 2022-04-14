@@ -4,12 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14" />
-        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/button_background.xml" value="0.1890625" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/btn_corner.xml" value="0.161" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/btndelete.xml" value="0.18" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/buttomcurve.xml" value="0.161" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/button_background.xml" value="0.14" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/button_background_light_blue.xml" value="0.2046875" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/drawable/button_bg_blue.xml" value="0.1890625" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/activity_seller_profile.xml" value="0.2" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/activity_set_recycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/designresouscefile.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/historypageresouscefile.xml" value="0.22" />
+        <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/layout/sellerprofileresourcefile.xml" value="0.18" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/BharatDangiProjects/livway/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
       </map>
