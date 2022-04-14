@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginPageQuizappActivity">
+
+    <ImageView
+        android:id="@+id/ic_Logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_slack" />
+    <TextView
+        android:id="@+id/text_view_LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_Logo"
+        android:text="LOGIN"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cv_username"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_view_LOGIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:cardBackgroundColor="#fee5e2"
+        app:cardCornerRadius="40dp">
+
+        <EditText
+            android:id="@+id/edit_text_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_id"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            android:maxLength="20"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cv_password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Cv_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#fee5e2"
+        app:cardCornerRadius="40dp">
+
+        <EditText
+            android:id="@+id/edit_text_Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_padlock"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cv_login"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Cv_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#fe7e62"
+        app:cardCornerRadius="30dp">
+
+        <Button
+            android:id="@+id/button_Login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#fe7e62"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:text="login"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/Linerlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cv_login"
+        android:orientation="horizontal"
+        android:paddingLeft="55dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="help"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

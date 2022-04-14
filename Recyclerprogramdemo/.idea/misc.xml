@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/drawable/drawable_btn_background.xml" value="0.161" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/drawable/drawable_lowercurve.xml" value="0.155" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/drawable/drawable_twosidecurve.xml" value="0.123" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/drawable/drawanle_btntwo_background.xml" value="0.14" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_demo.xml" value="0.22" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_hideimage_app.xml" value="0.22" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_login_page_quizapp.xml" value="0.16" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_questions_activity2_quizapp.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_radiobutton_activityone.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_radiobutton_two.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_result_activity3_quizapp.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_spinner1.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_spinner2.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/activity_time_piker.xml" value="0.20416666666666666" />
+        <entry key="..\:/BharatDangiProjects/Recyclerprogramdemo/app/src/main/res/layout/recourcedesignfile.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recyclerprogramdemo</string>
+    <string-array name="Country">
+
+        <item>Select country</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>japan</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Shrilanka</item>
+        <item>Bhutan</item>
+        <item>pakistan</item>
+    </string-array>
+</resources>
