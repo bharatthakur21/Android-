@@ -43,7 +43,12 @@ public class MainActivity extends AppCompatActivity {
         loginInputbody.getDeviceType();
         loginInputbody.getMobileNumber();
         loginInputbody.getPassword();
+        loginInputbody.getPassword();
 
+        if(AppSession.getInstance(MainActivity.this).getValue(Constant.IS_USER_LOGIN).contains("true")){
+            Intent loginIntent = new Intent(MainActivity.this,SetRecyclerActivity.class);
+            startActivity(loginIntent);
+        }
         btnsignup = findViewById(R.id.btnsignup);
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
@@ -85,8 +90,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponcsebody> call, Response<LoginResponcsebody> response) {
                 if (response.code()==200){
+                    AppSession.getInstance(MainActivity.this).storesp(Constant.IS_USER_LOGIN,"xc");
 
-                    AppSession.getInstance(MainActivity.this).setValue(Constant.ACCESS_TOKEN_SHARED_PREFERENCES,response.body().getData().getToken());
+                    AppSession.getInstance(MainActivity.this).storesp(Constant.ACCESS_TOKEN_SHARED_PREFERENCES,response.body().getData().getToken());
                     Intent loginIntent = new Intent(MainActivity.this,SetRecyclerActivity.class);
                     startActivity(loginIntent);
                 }else{

@@ -22,7 +22,7 @@ public class AppSession {
         sharedPreferences = context.getSharedPreferences(Constant.PREFERENCES_NAME, Context.MODE_PRIVATE);
     }
 
-    public void setValue(String key, String value) {
+    public void storesp(String key, String value) {
         SharedPreferences.Editor prefsEditor = sharedPreferences.edit();
         prefsEditor.putString(key, value);
         prefsEditor.commit();
