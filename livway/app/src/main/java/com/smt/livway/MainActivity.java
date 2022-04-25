@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponcsebody> call, Response<LoginResponcsebody> response) {
                 if (response.code()==200){
-                    AppSession.getInstance(MainActivity.this).storesp(Constant.IS_USER_LOGIN,"xc");
+                    AppSession.getInstance(MainActivity.this).storesp(Constant.IS_USER_LOGIN,"true");
 
                     AppSession.getInstance(MainActivity.this).storesp(Constant.ACCESS_TOKEN_SHARED_PREFERENCES,response.body().getData().getToken());
                     Intent loginIntent = new Intent(MainActivity.this,SetRecyclerActivity.class);

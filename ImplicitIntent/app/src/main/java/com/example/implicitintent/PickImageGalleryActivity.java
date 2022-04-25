@@ -28,6 +28,7 @@ public class PickImageGalleryActivity extends AppCompatActivity {
         binding = ActivityPickImageGalleryBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+
         binding.btnSelectPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,6 +65,7 @@ public class PickImageGalleryActivity extends AppCompatActivity {
         startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
     }
 
+
     private void galleryIntent() {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         intent.setType("image/*");
@@ -86,4 +88,5 @@ public class PickImageGalleryActivity extends AppCompatActivity {
         }
     }
 }
+
 
